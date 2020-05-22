@@ -103,17 +103,21 @@ Aunque puedes hacer uso de funciones como `sqrt()` (raíz cuadrada) que deben se
 Para pedir el primer cateto al usuario, tienes que usar `int(input("Primer cateto: "))`.
 {% endspoiler %}
 
-{% spoiler "Ver segunda pista" %}
-Para pedir el primer cateto al usuario, tienes que usar `int(input("Primer cateto: "))`.
-{% endspoiler %}
-
 {% spoiler "Ver tercera pista" %}
-Para poder mostrar la respuesta, necesitas mezclar un string, "Hipotenusa: ", con un número entero. Si intentas sumar ambos valores (concatenar), vas a obtener un error (porque no puedes sumar strings con enteros). La forma correcta es:
+Para poder mostrar la respuesta, necesitas mezclar un string, `"Hipotenusa: "`, con un número entero. Si intentas sumar ambos valores (concatenar), vas a obtener un error (porque no puedes sumar strings con enteros). La forma correcta es:
 ```python
 print("Hipotenusa:", hipotenusa)
 ```
 
-Donde `hipotenusa` es la variable que contiene el entero con tu hipotenusa. La `","` hace que `print()` convierta automáticamente el entero a la derecha a un string, de forma que se pueda mostrar correctamente. Adicionalmente, la coma añade un espacio entre ambas expresiones, así que ten cuidado con que tu output tenga dos espacios!
+Donde `hipotenusa` es la variable (opcional) que contiene el entero con tu hipotenusa. La `","` hace que `print()` convierta automáticamente el entero a la derecha a un string, de forma que se pueda mostrar correctamente.
+
+Adicionalmente, la coma añade un espacio entre ambas expresiones, así que ten cuidado con que tu output tenga dos espacios!
+
+De forma alternativa (e igual de correcta), puedes convertir el entero a string, utilizando la función `str()`, y así poder usar la suma normalmente:
+
+```python
+print("Hipotenusa: " + str(hipotenusa))
+```
 
 {% endspoiler %}
 
