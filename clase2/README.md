@@ -14,11 +14,19 @@ Si no sabes como correr programas en el entorno de laboratorio (CS50 Lab), deber
 
 Los problemas cuentan con tres partes:
 
-- **Contexto: (a veces):** El contexto del problema, muchas veces explica conceptos previos para que entiendas el problema planteado. En un comparador de ADN, por ejemplo, podría ser la explicación de como funcionan los comparadores y toda la bioquímica y genética asociada.
-- **Especificación:** Esto es el enunciado del problema, te dice lo que tu programa debería hacer.
+- **Contexto: (a veces):** Muchas veces explica conceptos previos para que entiendas el problema planteado. En un comparador de ADN, por ejemplo, podría ser la explicación de como funcionan los comparadores y toda la bioquímica y genética asociada.
+- **Especificación:** El enunciado del problema, te dice lo que tu programa debería hacer.
 - **Uso:** Esto te indica como tu programa debería ser utilizado. Por ejemplo, especifica en que forma el usuario va a interactuar con tu programa. Debes procurar que tu programa se ajuste perfectamente a esto ya que el evaluador de problemas es automatizado, y espera que cumplas con cada ejemplo.
 - **Pistas (a veces):** Especialmente en problemas desafiantes, este apartado te dará algunas pistas sobre como poder solucionarlo.
-- **Envío:** Esto te dice el comando que debes ejecutar para comprobar tu problema (puedes hacerlo ilimitadas veces) y para enviar tu problema a la plataforma de evaluación (donde se te asigna un porcentaje para tu solución).
+- **Envío:** Esto te dice el comando que debes ejecutar para comprobar tu problema (puedes hacerlo ilimitadas veces) y para enviar tu problema a la plataforma de evaluación (donde se te asigna un porcentaje para tu solución, también puedes enviarlo cuantas veces quieras).
+
+{% next "Seguir" %}
+
+## Registrarse en el curso
+Para poder usar `check50`y `submit50` es necesario que:
+
+- Estés registrado en [github.com][https://github.com/] con tu mail UC.
+- Asocies tu cuenta de GitHub con la página de `submit50`del curso. Para hacerlo, ingresa a [este link](https://submit.cs50.io/invites/0392889eaf614534906d60e45912e7db).
 
 {% next "Seguir" %}
 
