@@ -50,13 +50,13 @@ Hola, mundo!
 
 ### Envío
 
-Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal:
+Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal, iniciando sesión con tu usuario y contraseña de GitHub cuando te lo solicite. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
 
 ```bash
 check50 agucova/cs42/master/hola
 ```
 
-Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, iniciando sesión con tu usuario y contraseña de GitHub cuando te lo solicite. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
+Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal (si ya iniciaste sesión, no debería pedírtelo):
 
 ```bash
 submit50 agucova/cs42/master/hola
@@ -93,23 +93,27 @@ c: 5
 
 **Nota:** Aquí las dos primeras líneas son prompts de Python, mientras que la última es un output que utiliza `print()`. Puedes asumir que a y b son enteros.
 
-## Pista
+## Pistas
 
-{% spoiler "Ver pista" %}
+{% spoiler "Ver primera pista" %}
 Aunque puedes hacer uso de funciones como `sqrt()` (raíz cuadrada) que deben ser importadas de la librería `math`, no es necesario, dado que tienes el poderoso operador `**`.
+{% endspoiler %}
+
+{% spoiler "Ver segunda pista" %}
+Para pedir el primer cateto al usuario, tienes que usar `int(input("a: "))`.
 {% endspoiler %}
 
 ### Envío
 
 Debido a que `check50` es relativamente lento (puede tomar ~30 segundos), siempre prueba la funcionalidad de tu programa tu mismo primero!
 
-Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal, iniciando sesión con tu usuario y contraseña de GitHub cuando te lo solicite. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
+Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal, iniciando sesión con tu usuario y contraseña de GitHub si es que te lo solicita. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
 
 ```bash
 check50 agucova/cs42/master/hipotenusa
 ```
 
-Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, iniciando con tu GitHub de la misma forma que con `check50`.
+Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, tu usuario y contraseña deberían haberse quedado guardados de usos anteriores de `check50`y `submit50`.
 
 ```bash
 submit50 agucova/cs42/master/hipotenusa
