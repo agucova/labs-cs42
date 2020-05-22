@@ -2,7 +2,7 @@
 
 ## Enviando desafíos
 
-Ahora en adelante, cada clase va a estar acompañada de un conjunto de desafíos o *problem sets* (psets). La idea es que puedas resolver problemas propuestos en Python, y utilizar dos herramientas del curso, *check50* y *submit50*, para revisar y enviar tus psets, respectivamente.
+Ahora en adelante, cada clase va a estar acompañada de un conjunto de desafíos o *problem sets* (psets). La idea es que puedas resolver problemas propuestos en Python, y utilizar dos herramientas del curso, `check50` y `submit50`, para revisar y enviar tus psets, respectivamente.
 
 Algunos problemas de este pset son adaptados de pruebas de IIC1103, Introducción a la Programación. La idea es que los problemas vayan creciendo en dificultad y no solo te permitan practicar lo pasado en cada clase, sino que te preparen para IIC1103.
 
@@ -46,18 +46,69 @@ $ python hola.py
 Hola, mundo!
 ```
 
-**Nota:** Cuando se habla sobre un comando en el terminal, se suele anteponer un `$` para indicar que es efectivamente un comando. Las lineas que no empiecen por `$` corresponden al output de tu programa.
+**Nota:** Cuando se habla sobre un comando en el terminal, cuando es conveniente, se antepone un `$` para indicar que es efectivamente un comando. Las lineas que no empiecen por `$` corresponden al output de tu programa. A veces se omite el `$` cuando el comando no debería tener output, o la idea es que tu lo averigues.
 
 ### Envío
 
 Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal:
+
 ```bash
-$ check50 agucova/cs42/master/hola
+check50 agucova/cs42/master/hola
 ```
-Execute the below, logging in with your GitHub username and password when prompted. For security, you’ll see asterisks (*) instead of the actual characters in your password.
 
 Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, iniciando sesión con tu usuario y contraseña de GitHub cuando te lo solicite. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
 
 ```bash
-$ submit50 agucova/cs42/master/hola
+submit50 agucova/cs42/master/hola
+```
+
+{% next "Seguir" %}
+
+## Revisando mi porcentaje
+
+Con tal de facilitar el seguimiento en el curso, cuando usas `submit50` tu código se envía a [submit.cs50.io](https://submit.cs50.io), donde puedes ver el resultado de la evaluación de tu programa, junto con su porcentaje asociado.
+
+Pruébalo ahora! Entra [aquí](https://submit.cs50.io/courses/190/) y ve si aparece el programa que envíaste. Si no aparece, comprueba si usaste `submit50` correctamente.
+
+Ahora vamos a hacer problemas mas interesantes.
+
+{% next "Seguir" %}
+
+## Hipotenusa
+
+### Especificación
+
+Implementa un programa en un archivo nuevo, `hipotenusa.py` que reciba dos números enteros correspondientes a los catetos de un triángulo rectángulo, y devuelva la hipotenusa correspondiente, acorde con el [teorema de Pitágoras](https://es.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras).
+
+Adicionalmente, tu programa debe hacer uso de `print()`para mostrar el resultado.
+
+### Uso
+
+```bash
+$ python hipotenusa.py
+a: 3
+b: 4
+c: 5
+```
+
+**Nota:** Aquí las dos primeras líneas son prompts de Python, mientras que la última es un output que utiliza `print()`. Puedes asumir que a y b son enteros.
+
+## Pista
+
+{% spoiler "Ver pista" %}
+Aunque puedes hacer uso de funciones como `sqrt()` (raíz cuadrada) que deben ser importadas de la librería `math`, no es necesario, dado que tienes el poderoso operador `**`.
+{% endspoiler %}
+
+### Envío
+
+Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal:
+
+```bash
+check50 agucova/cs42/master/hipotenusa
+```
+
+Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, iniciando sesión con tu usuario y contraseña de GitHub cuando te lo solicite. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
+
+```bash
+submit50 agucova/cs42/master/hipotenusa
 ```
