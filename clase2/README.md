@@ -25,7 +25,7 @@ Los problemas cuentan con tres partes:
 ## Registrarse en el curso
 Para poder usar `check50`y `submit50` es necesario que:
 
-- Estés registrado en [github.com][https://github.com/] con tu mail UC.
+- Estés registrado en [github.com](https://github.com/) con tu mail UC.
 - Asocies tu cuenta de GitHub con la página de `submit50`del curso. Para hacerlo, ingresa a [este link](https://submit.cs50.io/invites/0392889eaf614534906d60e45912e7db).
 
 {% next "Seguir" %}
