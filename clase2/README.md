@@ -101,13 +101,13 @@ Aunque puedes hacer uso de funciones como `sqrt()` (raíz cuadrada) que deben se
 
 ### Envío
 
-Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal:
+Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal, iniciando sesión con tu usuario y contraseña de GitHub cuando te lo solicite. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
 
 ```bash
 check50 agucova/cs42/master/hipotenusa
 ```
 
-Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, iniciando sesión con tu usuario y contraseña de GitHub cuando te lo solicite. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
+Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, iniciando con tu GitHub de la misma forma que con `check50`.
 
 ```bash
 submit50 agucova/cs42/master/hipotenusa
