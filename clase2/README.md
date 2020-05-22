@@ -8,6 +8,11 @@ Algunos problemas de este pset son adaptados de pruebas de IIC1103, Introducció
 
 Si no sabes como correr programas en el entorno de laboratorio (CS50 Lab), deberías primero pasar por el [lab introductorio](https://lab.cs50.io/agucova/labs-cs42/master/hola/).
 
+**Nota:** `check50`y `submit50` fueron escritas en inglés, pero si quieres cambiar su lenguaje a español, ejecuta lo siguiente en terminal:
+```bash
+LANGUAGE=es
+```
+
 {% next "Seguir" %}
 
 ## Sobre los problemas
