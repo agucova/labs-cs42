@@ -101,6 +101,8 @@ Aunque puedes hacer uso de funciones como `sqrt()` (raíz cuadrada) que deben se
 
 ### Envío
 
+Debido a que `check50` es relativamente lento (puede tomar ~30 segundos), siempre prueba la funcionalidad de tu programa tu mismo primero!
+
 Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal, iniciando sesión con tu usuario y contraseña de GitHub cuando te lo solicite. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
 
 ```bash
