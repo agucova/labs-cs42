@@ -80,7 +80,7 @@ Ahora vamos a hacer problemas mas interesantes.
 
 Implementa un programa en un archivo nuevo, `hipotenusa.py` que reciba dos números enteros correspondientes a los catetos de un triángulo rectángulo, y devuelva la hipotenusa correspondiente, acorde con el [teorema de Pitágoras](https://es.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras).
 
-Adicionalmente, tu programa debe hacer uso de `print()`para mostrar el resultado.
+Toma en cuenta que tu programa debe hacer uso de `print()`para mostrar el resultado y tu resultado debe mostrar la hipotenusa como un número entero, no un decimal. (Puedes asumir que la respuesta es entera).
 
 ### Uso
 
@@ -101,6 +101,20 @@ Aunque puedes hacer uso de funciones como `sqrt()` (raíz cuadrada) que deben se
 
 {% spoiler "Ver segunda pista" %}
 Para pedir el primer cateto al usuario, tienes que usar `int(input("Primer cateto: "))`.
+{% endspoiler %}
+
+{% spoiler "Ver segunda pista" %}
+Para pedir el primer cateto al usuario, tienes que usar `int(input("Primer cateto: "))`.
+{% endspoiler %}
+
+{% spoiler "Ver tercera pista" %}
+Para poder mostrar la respuesta, necesitas mezclar un string, "Hipotenusa: ", con un número entero. Si intentas sumar ambos valores (concatenar), vas a obtener un error (porque no puedes sumar strings con enteros). La forma correcta es:
+```python
+print("Hipotenusa:", hipotenusa)
+```
+
+Donde `hipotenusa` es la variable que contiene el entero con tu hipotenusa. La `","` hace que `print()` convierta automáticamente el entero a la derecha a un string, de forma que se pueda mostrar correctamente. Adicionalmente, la coma añade un espacio entre ambas expresiones, así que ten cuidado con que tu output tenga dos espacios!
+
 {% endspoiler %}
 
 ### Envío
