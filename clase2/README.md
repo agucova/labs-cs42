@@ -86,12 +86,12 @@ Adicionalmente, tu programa debe hacer uso de `print()`para mostrar el resultado
 
 ```bash
 $ python hipotenusa.py
-a: 3
-b: 4
-c: 5
+Primer cateto: 3
+Segundo cateto: 4
+Hipotenusa: 5
 ```
 
-**Nota:** Aquí las dos primeras líneas son prompts de Python, mientras que la última es un output que utiliza `print()`. Puedes asumir que a y b son enteros.
+**Nota:** Aquí las dos primeras líneas son prompts de Python, mientras que la última es un output que utiliza `print()`. Puedes asumir que ambos catetos son números enteros (integers).
 
 ## Pistas
 
@@ -100,7 +100,7 @@ Aunque puedes hacer uso de funciones como `sqrt()` (raíz cuadrada) que deben se
 {% endspoiler %}
 
 {% spoiler "Ver segunda pista" %}
-Para pedir el primer cateto al usuario, tienes que usar `int(input("a: "))`.
+Para pedir el primer cateto al usuario, tienes que usar `int(input("Primer cateto: "))`.
 {% endspoiler %}
 
 ### Envío
