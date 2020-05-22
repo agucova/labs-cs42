@@ -1,5 +1,7 @@
 # Holi uwu
+
 ## Introducción
+
 Hola, mundo! A la derecha, en el *editor de texto*, está el programa mas simple que se puede hacer en Python, un "Hello, World".
 
 Un programa de *Hello, World* es un programa computacional que se utiliza para demostrar la sintaxis (estructura) más básica de un lenguaje de programación determinado.
@@ -20,7 +22,7 @@ En un terminal, hay ciertas líneas de texto que permiten emitir instrucciones, 
 
 Probablemente ya has visto terminales varias veces, suele ser típicos de películas como Terminator, La Matrix, y Hackers, al igual que incontables juegos de hacking.
 
-Aunque es verdad que los hackers suelen utilizar terminales de forma frecuente, esta herramienta no está reservado a ellos, todo computador moderno viene con uno! 
+Aunque es verdad que los hackers suelen utilizar terminales de forma frecuente, esta herramienta no está reservado a ellos, todo computador moderno viene con uno!
 
 > En MacOS puedes encontrar una aplicación llamada Terminal, en Windows encontrarás a cmd.exe y a Powershell, y en Ubuntu está GNOME Terminal.
 
@@ -31,6 +33,7 @@ En este caso, el terminal se encuentra abajo del *editor de texto*, y vamos a em
 {% next "Seguir" %}
 
 ## Listando archivos
+
 Si apretas el botón de carpeta que está al margen del editor de texto, podrás ver los archivos que hay en tu entorno de programación en este momento. Apreta el botón de nuevo para ocultar el menú.
 
 Si estás empezando desde cero, solo debería haber un archivo, *hola.py*, el programa que queremos ejecutar.
@@ -48,6 +51,7 @@ De ahora en adelante, *ejecutar* (o correr) un comando significa escribirlo en u
 {% next "Seguir" %}
 
 ## Ahora sí, lo prometo
+
 Ahora que sabes ejecutar comandos, podemos por fin correr el programa de Hola, mundo. Para hacerlo ejecuta el siguiente comando en tu terminal:
 
 ```bash

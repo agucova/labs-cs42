@@ -1,4 +1,4 @@
 lab50:
   files:
-    - !exclude "*"
+    - !exclude ""
     - !include hola.py
