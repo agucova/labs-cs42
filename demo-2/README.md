@@ -62,7 +62,7 @@ En el caso específico del Falcon 9, todos los [criterios](https://www.nasa.gov/
 
 ## Especificación
 
-Tu tarea es implementar un programa en Python que guíe a un LWO (Oficial del Clima de Lanzamiento) a verificar los criterios antes presentados, y determinar si proseguir, detener o retrasar un lanzamiento del Falcon 9.
+Tu tarea es implementar un programa en Python que guíe a un LWO (Oficial del Clima de Lanzamiento) a **verificar los criterios** antes presentados, **y determinar si proseguir, detener o retrasar un lanzamiento de un Falcon 9.**
 
 A tu derecha vas a encontrar dos archivos ya creados, `spacex.py` y `comprobar_criterios.py`.
 
@@ -70,7 +70,7 @@ A tu derecha vas a encontrar dos archivos ya creados, `spacex.py` y `comprobar_c
 
 `comprobar_criterios.py` es dónde tendrás que implementar tu programa. El archivo viene con unas líneas ejemplificando como usar `spacex.criterios` y `spacex.preguntar()`.
 
-Te recomiendo que experimentas con el programa de ejemplo: como acceder a los distintos criterios y como usar la funcionar `spacex.preguntar()`.
+Te recomiendo que **experimentas con el programa de ejemplo**: como acceder a los distintos criterios y como usar la funcionar `spacex.preguntar()`.
 
 ## Uso
 
