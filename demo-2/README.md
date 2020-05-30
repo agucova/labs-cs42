@@ -75,18 +75,20 @@ Te recomiendo que experimentas con el programa de ejemplo: como acceder a los di
 
 ## Uso
 
-El programa deberá ir preguntando por cada criterio, y de no cumplir alguno, el programa deberá inmediatamente mostrar un veredicto (`Veredicto: detener.` o `Veredicto: retrasar.`). Si el usuario cumple todos los criterios, deberá mostrar `Veredicto: proseguir.`.
+El programa deberá ir preguntando por cada criterio, y de no cumplir alguno, el programa deberá inmediatamente mostrar un veredicto (`Veredicto: detener` o `Veredicto: retrasar`). Si el usuario cumple todos los criterios, deberá mostrar `Veredicto: proseguir`.
 
 ```bash
 $ python3 comprobar_criterios.py
 1. No lanzar si el viento a los 162 pies de altura de la plataforma de lanzamiento excede los 30 nudos. [si/no] si
 2. No lanzar si las condiciones en alta alturas tienen un viento que pudiera a llevar a problemas de control para el vehículo de lanzamiento. [si/no] no
 ...
-Veredicto: detener.
+Veredicto: detener
 ```
+
 {% next "Tips y Pistas" %}
 
 ### Tips
+
 Para poder implementar este programa, lo mas probable es que uses un constructo como `for (...) in (...)` para ir pasando por cada criterio. Recuerda su estructura general:
 
 ```python
@@ -114,6 +116,7 @@ Adicionalmente, aunque no es necesario, podría serte útil la función `enumera
 1 Java
 2 JavaScript
 ````
+
 Nota como debes declarar una variable nueva para contener el índice (acá `indice`) y como se cuenta desde 0.
 
 {% next "Comprobar y Enviar" %}
