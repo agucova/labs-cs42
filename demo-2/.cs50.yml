@@ -1,5 +1,5 @@
 lab50:
   files:
     - !exclude "*"
-    - !include "criterios_f9.py"
-    - !include "comprobar.py"
+    - !include "spacex.py"
+    - !include "comprobar_criterios.py"
