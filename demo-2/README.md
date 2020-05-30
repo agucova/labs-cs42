@@ -65,19 +65,56 @@ En el caso específico del Falcon 9, todos los [criterios](https://www.nasa.gov/
 
 Tu tarea es implementar un programa en Python que guíe a un LWO (Oficial del Clima de Lanzamiento) a verificar los criterios antes presentados, y determinar si proseguir, detener o retrasar un lanzamiento del Falcon 9.
 
-A tu derecha vas a encontrar dos archivos ya creados, `criterios_f9.py` y `comprobar_criterios.py`. El primero contiene código ya escrito con cada criterio ya mencionado, y te permitirá acceder a la lista de criterios como una variable (`criterios[]`) dentro de `comprobar_criterios.py`.
+A tu derecha vas a encontrar dos archivos ya creados, `spacex.py` y `comprobar_criterios.py`.
+
+`spacex.py` contiene código ya escrito con cada criterio ya mencionado, y te permitirá acceder a la lista de criterios como una variable llamada `spacex.criterios`. Adicionalmente, te permite usar una función llamada `spacex.preguntar()`, que recibe un criterio, se lo pregunta al usuario y devuelve la respuesta del usuario.
+
+`comprobar_criterios.py` es dónde tendrás que implementar tu programa. El archivo viene con unas líneas ejemplificando como usar `spacex.criterios` y `spacex.preguntar()`.
+
+Te recomiendo que experimentas con el programa de ejemplo: como acceder a los distintos criterios y como usar la funcionar `spacex.preguntar()`.
 
 ## Uso
 
-El programa deberá preguntarle al usuario por cada criterio en la lista, esperando una respuesta afirmativa (`si`) o negativa (`no`). Dependiendo de las respuestas del usuario, deberás devolver un veredicto para el lanzamiento. (`proseguir` `retrasar` o `detener`)
+El programa deberá ir preguntando por cada criterio, y de no cumplir alguno, el programa deberá inmediatamente mostrar un veredicto (`Veredicto: detener.` o `Veredicto: retrasar.`). Si el usuario cumple todos los criterios, deberá mostrar `Veredicto: proseguir.`.
 
 ```bash
 $ python3 comprobar_criterios.py
 1. No lanzar si el viento a los 162 pies de altura de la plataforma de lanzamiento excede los 30 nudos. [si/no] si
-2. No lanzar si las condiciones en alta alturas tienen un viento que pudiera a llevar a problemas de control para el vehículo de lanzamiento. [si/no] si
+2. No lanzar si las condiciones en alta alturas tienen un viento que pudiera a llevar a problemas de control para el vehículo de lanzamiento. [si/no] no
 ...
-Veredicto: retrasar.
+Veredicto: detener.
 ```
+{% next "Tips y Pistas" %}
+
+### Tips
+Para poder implementar este programa, lo mas probable es que uses un constructo como `for (...) in (...)` para ir pasando por cada criterio. Recuerda su estructura general:
+
+```python
+>>> precios = [11990, 990, 5990, 1500]
+>>> total = 0
+
+>>> for precio in precios:
+>>>     total = total + precio
+
+>>> print("El total es:", total)
+
+El total es: 20470
+```
+
+Adicionalmente, aunque no es necesario, podría serte útil la función `enumerate()`, que te permite conseguir el índice de una lista en un bucle for:
+
+```python
+>>> # Lenguajes por popularidad
+>>> lenguajes = ["Python", "Java", "JavaScript"]
+
+>>> for indice, lenguaje in enumerate(lenguajes):
+>>>    print(indice, lenguaje)
+
+0 Python
+1 Java
+2 JavaScript
+````
+Nota como debes declarar una variable nueva para contener el índice (acá `indice`) y como se cuenta desde 0.
 
 {% next "Comprobar y Enviar" %}
 
@@ -91,7 +128,7 @@ Para probar si tu programa funciona como debería, corre el siguiente comando en
 check50 agucova/cs42/master/demo-2
 ```
 
-Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, tu usuario y contraseña deberían haberse quedado guardados de usos anteriores de `check50`y `submit50`.
+Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, tu usuario y contraseña deberían haberse quedado guardados de usos anteriores de `check50` y `submit50`.
 
 ```bash
 submit50 agucova/cs42/master/demo-2
