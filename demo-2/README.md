@@ -69,7 +69,7 @@ A tu derecha vas a encontrar dos archivos ya creados, `criterios_f9.py` y `compr
 
 ## Uso
 
-El programa deberá preguntarle al usuario por cada criterio en la lista, esperando una respuesta afirmativa (`si`) o negativa (`no`). Dependiendo de las respuestas del usuario, deberás devolver un veredicto para el lanzamiento.
+El programa deberá preguntarle al usuario por cada criterio en la lista, esperando una respuesta afirmativa (`si`) o negativa (`no`). Dependiendo de las respuestas del usuario, deberás devolver un veredicto para el lanzamiento. (`proseguir` `retrasar` o `detener`)
 
 ```bash
 $ python3 comprobar_criterios.py
@@ -78,6 +78,7 @@ $ python3 comprobar_criterios.py
 ...
 Veredicto: retrasar.
 ```
+
 {% next "Comprobar y Enviar" %}
 
 ### Envío
