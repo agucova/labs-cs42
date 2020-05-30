@@ -127,11 +127,11 @@ Debido a que `check50` es relativamente lento (puede tomar ~30 segundos), siempr
 Para probar si tu programa funciona como debería, corre el siguiente comando en tu terminal, iniciando sesión con tu usuario y contraseña de GitHub si es que te lo solicita. Por razones de seguridad, verás asteriscos (`*`) en vez de los carácteres de tu contraseña.
 
 ```bash
-check50 agucova/cs42/master/demo-2
+check50 agucova/cs42/master/demo2
 ```
 
 Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu problema para marcarlo como finalizado! Ejecuta el siguiente comando en el Terminal, tu usuario y contraseña deberían haberse quedado guardados de usos anteriores de `check50` y `submit50`.
 
 ```bash
-submit50 agucova/cs42/master/demo-2
+submit50 agucova/cs42/master/demo2
 ```
