@@ -1,3 +1,5 @@
+# spacex.criterios
+
 criterios = []
 
 criterios.append(
@@ -42,8 +44,15 @@ criterios.append(
     "11. Retrasar por 15 minutos si las lecturas de medidores de campo eléctrico dentro de 5 millas naúticas de la zona de lanzamiento exceden los +/- 1.500 V/m."
 )
 
+# spacex.preguntar()
+
 
 def preguntar(criterio):
+    """
+    Pregunta al usuario sobre el cumplimiento de un determinado criterio.
+
+    Solo recibe un argumento, criterio (str).
+    """
     while True:
         respuesta = input(criterio + " [si/no] ").lower().strip()
         if respuesta in ["si", "no"]:
