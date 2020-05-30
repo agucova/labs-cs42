@@ -114,7 +114,7 @@ Adicionalmente, aunque no es necesario, podría serte útil la función `enumera
 0 Python
 1 Java
 2 JavaScript
-````
+```
 
 Nota como debes declarar una variable nueva para contener el índice (acá `indice`) y como se cuenta desde 0.
 
