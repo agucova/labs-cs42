@@ -14,7 +14,7 @@ Un pobre ayudante de Desafíos decidió cubrir este lanzamiento en vivo, junto c
 
 Lamentablemente, debido a las condiciones climáticas cambiantes, el lanzamiento tuvo que ser pospuesto a solo minutos de su comienzo.
 
-El nuevo lanzamiento está agendado para el sábado 22 (hoy, probablemente), pero los criterios climáticos mínimos son los mismos.
+El nuevo lanzamiento está agendado para el sábado 30 (hoy, probablemente), pero los criterios climáticos mínimos son los mismos.
 
 {% next "Seguir" %}
 
