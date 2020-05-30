@@ -18,7 +18,6 @@ El nuevo lanzamiento está agendado para el sábado 22 (hoy, probablemente), per
 
 {% next "Seguir" %}
 
-
 ## Criterios de Compromiso al Lanzamiento
 
 Antes de lanzar cualquier cohete (especialmente uno tripulado), es de suma importancia verificar que efectivamente se cumplen una serie de criterios mínimos, llamados los _Launch Commit Criteria_ (criterios de compromiso al lanzamiento, LLC), que se diferencian entre dos categorías:
@@ -33,7 +32,7 @@ En Estados Unidos, el rol de evaluar continuamente que se cumplan estas condicio
 
 ## Falcon 9
 
-En el caso específico del Falcon 9, todos los [criterios](https://www.nasa.gov/pdf/649911main_051612_falcon9_weather_criteria.pdf) [^1] son los siguientes:
+En el caso específico del Falcon 9, todos los [criterios](https://www.nasa.gov/pdf/649911main_051612_falcon9_weather_criteria.pdf) [^1] son los siguientes (no te preocupes, no tendrás que memorizarlos):
 
 1. **No lanzar** si el viento a los 162 pies de altura de la plataforma de lanzamiento excede los 30 nudos. (15.4 m/s)
 
