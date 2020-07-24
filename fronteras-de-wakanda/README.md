@@ -2,7 +2,9 @@
 
 ![uwu](https://nypost.com/wp-content/uploads/sites/2/2019/12/wakanda-usda.jpg?quality=90&strip=all&w=618&h=410&crop=1)
 
-Holi! Sorprendentemente, si, **este es el título de esta sección**, y digo sección porque de hecho *Fronteras de Wakanda* son tres ejercicios en la I1, lo que significa que tendrás que enviar tres archivos distintos.
+Holi! Sorprendentemente, si, **este es el título de esta sección**, y digo sección porque de hecho *Fronteras de Wakanda* son tres ejercicios en la I1, lo que significa que tendrás que enviar tres archivos distintos. (No te preocupes, no es taaaan terrible.)
+
+Así que pon el lo-fi (o tu música preferida) y a programar 👩‍💻.
 
 {% next "Parte 1" %}
 
@@ -30,7 +32,7 @@ En `V--P--V--P--V el tramo` más largo son 2 rejas (hay varios iguales: desde la
 
 #### Input Format
 
-Un *str* con el muro en el formato descrito.
+Una linea con el muro en el formato descrito.
 
 #### Constraints
 
@@ -149,7 +151,7 @@ Donde V indica que hay un Puesto de Vigilancia en ese lugar, P un Puesto de Paso
 
 #### Input Format
 
-Un *str* `m` con un muro en el formato descrito, y un *int* `i` con una posición en el muro.
+Una liena (que llamaremos `m`) con un muro en el formato descrito, y otra línea (que llamaremos `i`) con una posición en el muro.
 
 #### Constraints
 
@@ -345,4 +347,12 @@ Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu probl
 submit50 agucova/cs42/master/fdw-ciegos
 ```
 
-{% next "Parte 2" %}
+{% next "El fin" %}
+
+# The end
+
+Si llegaste hasta aquí y tus checks pasaron, felicitaciones ✨!
+
+La I1 no era fácil, especialmente si recién estás empezando a entender Python, así que descansa (o ándate a mimir) y siéntete orgulloso 🎉.
+
+{% video https://www.youtube.com/watch?v=9nfwvbT2sl8 %}
