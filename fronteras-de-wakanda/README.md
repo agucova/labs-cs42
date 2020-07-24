@@ -122,3 +122,97 @@ submit50 agucova/cs42/master/fdw-costo
 ```
 
 {% next "Parte 2" %}
+
+## Parte 2
+
+En esta parte se te pide que implementes un programa `sepuede.py` que dado un *str* m con un muro, y un *int* i con una posición en el muro; y retorna un *bool* diciendo si se podría poner un Puesto de Paso en esa posición. Un Puesto de Paso se puede poner en una posición `i` si la posición tiene una reja, así como la posición de antes y la de después. Las posiciones están numeradas desde el 0 hasta el `len(m) - 1`. La i dada siempre estará entre 0 y `len(m) - 1`.
+
+Por ejemplo, para la reja V--V----V--P--VV---V------V--P--V--V, la función retornaría lo siguiente:
+
+`True` en la posición 5, porque es una reja así como la posición de antes y después.
+`False` en la posición 3, porque es una `V`
+`False` en la posición 4, porque hay una V en la posición de antes.
+`False` en la posición 2, porque es una V en la posición de después.
+Recuerda que los muros se representan como strings de esta forma:
+
+```
+V--V----V--P--VV---V------V--P--V--V
+
+```
+
+Donde V indica que hay un Puesto de Vigilancia en ese lugar, P un Puesto de Paso, y - simplemente una reja. Todos los muros siempre empiezan y terminan con una V, y todos los muros tienen al menos una reja.
+
+{% next "Formato" %}
+
+
+### Formato
+
+#### Input Format
+
+Un *str* `m` con un muro en el formato descrito, y un *int* `i` con una posición en el muro.
+
+#### Constraints
+
+El muro siempre empieza y termina con un `V`.
+Todos los muros tienen al menos una reja.
+La posición dada siempre estará entre `0` y `len(muro) - 1`.
+
+### Output Format
+
+Un bool si se puede poner P en esa posición (`True`) o si no se puede (`False`).
+
+{% next "Ejemplos" %}
+
+### Ejemplos
+
+#### Input
+
+```
+V--V----V--P--VV---V------V--P--V--V
+5
+```
+
+#### Output
+
+```
+True
+```
+
+#### Input
+
+```
+V--V----V--P--VV---V------V--P--V--V
+3
+```
+
+#### Output
+
+```
+False
+```
+
+#### Input
+
+```
+V--V----V--P--VV---V------V--P--V--V
+4
+
+```
+#### Output
+
+```
+False
+```
+
+#### Input
+
+```
+V--V----V--P--VV---V------V--P--V--V
+2
+```
+
+#### Output
+
+```
+False
+```
