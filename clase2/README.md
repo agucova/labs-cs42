@@ -141,3 +141,9 @@ Si tu programa pasa las pruebas de `check50`, entonces ya puedes enviar tu probl
 ```bash
 submit50 agucova/cs42/master/hipotenusa
 ```
+
+{% next "Final" %}
+
+## Final
+
+Felicitaciones! Hiciste el primer ejercicio completo de principio a fin. Si quieres seguir con los labs, puedes seguir con el [ejercicio demo-2](https://lab.cs50.io/agucova/labs-cs42/master/demo-2/), el siguiente lab.

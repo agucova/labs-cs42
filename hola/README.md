@@ -61,3 +61,5 @@ python hola.py
 Este comando básicamente le indica al  interpretador de Python, escrito `python` que debe ejecutar el archivo llamado `hola.py` y mostrarte su resultado.
 
 Al correrlo, deberías ver que la pantalla del terminal dió un resultado a tu comando, **Hola, mundo!**.
+
+Ahora tienes que aprender como usar check50 y submit50, puedes seguir con [este laboratorio](https://lab.cs50.io/agucova/labs-cs42/master/clase2/).
