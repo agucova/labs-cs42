@@ -4,6 +4,8 @@
 
 Holi! Sorprendentemente, si, **este es el título de esta sección**, y digo sección porque de hecho *Fronteras de Wakanda* son tres ejercicios en la I1, lo que significa que tendrás que enviar tres archivos distintos.
 
+{% next "Parte 1" %}
+
 ## Parte 1
 
 El presidente de Wakanda está estudiando construir un muro en su frontera con Narnia, y quiere que los narnianos lo paguen.
@@ -58,7 +60,6 @@ V--V----V--P--VV---V------V--P--V--V
 
 ```
 V--P--V--P--V
-
 ```
 
 ### Output
@@ -71,7 +72,6 @@ V--P--V--P--V
 
 ```
 V-V
-
 ```
 
 ### Output
@@ -84,7 +84,6 @@ V-V
 
 ```
 V--P---P--V
-
 ```
 
 ### Output
@@ -97,7 +96,6 @@ V--P---P--V
 
 ```
 P-------------V-----------P
-
 ```
 ### Output
 
