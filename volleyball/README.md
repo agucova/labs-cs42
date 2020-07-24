@@ -24,6 +24,8 @@ El partido lo gana el primero en llegar a los **5 puntos**, pero con una condici
 
 En esta pregunta se te pide un programa, `volleyball.py` que reciba qué equipo gana cada jugada y escriba el desarrollo del partido. Tu programa debe seguir las reglas del Volleyball de 1999.
 
+{% next "Formato" %}
+
 ## Input Format
 
 Para cada jugada se te entregara un `str con el equipo que ha ganado esa jugada (A o B).

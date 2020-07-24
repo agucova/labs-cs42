@@ -1,0 +1,4 @@
+lab50:
+  files:
+    - !exclude "*"
+    - !include "numeros_pythonescos.py"
