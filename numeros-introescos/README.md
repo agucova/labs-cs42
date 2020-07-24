@@ -1,6 +1,6 @@
 # Números Introescos
 
-Bienvenido al tercero y muy original ejercicio de la I1 de IIC1103 (tomada del primer semestre)
+Bienvenido ✨ al tercero y muy original ejercicio de la I1 de IIC1103, *Números Introescos*.
 
 ## Introducción
 
@@ -103,4 +103,6 @@ submit50 agucova/cs42/master/numeros-introescos
 
 ### Siguiente ejercicio
 
-Bien! Ahora que has terminado este ejercicio, puedes seguir con el [siguiente ejercicio de la I1](https://lab.cs50.io/agucova/labs-cs42/master/numeros-introescos/), *Números Introescos*. (Si, lo sé, la originalidad es notable acá).
+Felicitaciones 🎉! Estás a punto de terminar la I1.
+
+Ahora que has terminado este ejercicio, puedes seguir con el [siguiente y último ejercicio de la I1](https://lab.cs50.io/agucova/labs-cs42/master/fronteras-de-wakanda/), *Fronteras de Wakanda*. **(Prepárate).**

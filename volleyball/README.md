@@ -2,13 +2,17 @@
 
 ## Introducción
 
-Este laboratorio es una adaptación de uno de los ejercicios de la primera interrogación que se hizo en el primer semestre de este año en el curso IIC1103, Introducción a la Programación.
+Este laboratorio 👩‍💻 es una adaptación de uno de los ejercicios de la primera interrogación que se hizo en el primer semestre de 2020 en el curso IIC1103, Introducción a la Programación. Al final encontrarás un link para ir a los demás ejercicios.
 
-La gracia de este formato es que puedo darles comentarios y pistas sobre los ejercicios, y adicionalmente puedo recibir su desarrollo y darles sugerencias o tips.
+La gracia de este formato es que puedo darles comentarios y pistas sobre los ejercicios, y adicionalmente puedo recibir su desarrollo y darles sugerencias o tips. Además recibirán feedback sobre el estilo de su código (lo que no está contemplado en introducción, pero si en los cursos que siguen).
 
 Si no sabes como correr programas en el entorno de laboratorio (CS50 Lab), deberías primero pasar por el [lab introductorio](https://lab.cs50.io/agucova/labs-cs42/master/hola/) y el [lab de la clase-2]((https://lab.cs50.io/agucova/labs-cs42/master/clase-2/)).
 
-{% next "Seguir" %}
+Por último, si quieres escuchar música 🎵 haciendo los ejercicios (lo que está permitido en Intro), puedo recomendarte lo-fi o música clásica contemporanea (la de las peliculas épicas). Suelo usar [esta](https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=UgqObNGYRHCM0gIXmkpnxA) o [esta otra](https://open.spotify.com/playlist/2mtlhuFVOFMn6Ho3JmrLc2?si=NQadcjU0SC-rPIMEkAJ4aA) playlist.
+
+
+
+{% next "El ejercicio" %}
 
 ## El ejercicio
 
@@ -133,4 +137,6 @@ submit50 agucova/cs42/master/volleyball
 
 ### Siguiente ejercicio
 
-Bien! Ahora que has terminado este ejercicio, puedes seguir con el [siguiente ejercicio de la I1](https://lab.cs50.io/agucova/labs-cs42/master/numeros-pythonescos/), *Números Pythonescos*.
+Asumiendo que tus tests pasaron, terminaste el primer ejercicio 🎉!
+
+Ahora puedes seguir con el [siguiente ejercicio de la I1](https://lab.cs50.io/agucova/labs-cs42/master/numeros-pythonescos/), *Números Pythonescos*. Ya se vienen mas entretenidos, lo prometo.
