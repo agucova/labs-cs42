@@ -81,6 +81,8 @@ A
 
 ### Output
 
+Tu programa debería imprimir esto (aunque normalmente aparecería junto con el input).
+
 ```
 EMPIEZA
 SACA A

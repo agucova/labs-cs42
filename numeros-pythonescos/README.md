@@ -48,11 +48,17 @@ El número siempre será positivo y mayor o igual a 1.
 
 ## Ejemplos
 
+Corriendo tu programa con:
+```shell
+$ python numeros_pythonescos.py
+```
+
 ### Input
 
 ```
 5
 ```
+
 ### Output
 
 ```
