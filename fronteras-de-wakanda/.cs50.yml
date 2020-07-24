@@ -1,4 +1,6 @@
 lab50:
   files:
     - !exclude "*"
-    - !include "*.py"
+    - !include "costear.py"
+    - !include "sepuede.py"
+    - !include "ciegos.py"

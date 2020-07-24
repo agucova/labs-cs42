@@ -249,7 +249,7 @@ De esa forma, en `V--V----V--P--VV---V------V--P--V--V` hay 4 puntos ciegos de l
 - `V--V----V--P--VV---Vxxxxx-V--P--V--V`,
 - `V--V----V--P--VV---V-xxxxxV--P--V--V`,
 - `V--V----V--P--VV---V------VxxxxxV--V`
--
+
 En cambio, en `V--V----V--P--VV---V------V--P--V--V` hay solo 1 punto ciego de longitud 6:
 - `V--V----V--P--VV---VxxxxxxV--P--V--V`
 
