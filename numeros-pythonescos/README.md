@@ -1,10 +1,8 @@
-# Números Pythonescos
+# Números Pythonescos 🐍
 
 Bienvenido al segundo ejercicio de la I1 de IIC1103!
 
 Si no sabes como correr programas en el entorno de laboratorio (CS50 Lab), deberías primero pasar por el [lab introductorio](https://lab.cs50.io/agucova/labs-cs42/master/hola/) y el [lab de la clase-2]((https://lab.cs50.io/agucova/labs-cs42/master/clase-2/)).
-
-{% next "Seguir" %}
 
 ## Introducción
 
