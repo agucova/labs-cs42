@@ -32,7 +32,7 @@ En esta pregunta se te pide un programa, `volleyball.py` que reciba qué equipo 
 
 ## Input Format
 
-Para cada jugada se te entregara un `str con el equipo que ha ganado esa jugada (A o B).
+Para cada jugada se te entregara un *str* con el equipo que ha ganado esa jugada (A o B).
 
 ### Constraints
 
