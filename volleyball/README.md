@@ -132,4 +132,5 @@ submit50 agucova/cs42/master/volleyball
 {% next "Siguiente ejercicio" %}
 
 ### Siguiente ejercicio
+
 Bien! Ahora que has terminado este ejercicio, puedes seguir con el [siguiente ejercicio de la I1](https://lab.cs50.io/agucova/labs-cs42/master/numeros-pythonescos/), *Números Pythonescos*.

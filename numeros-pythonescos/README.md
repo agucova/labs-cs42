@@ -16,7 +16,7 @@ Un número pythonesco es un número entero, positivo, que cumple con la siguient
 
 - 89, en cambio, NO es pythonesco, ya que 8² + 9² = 145, 1² + 4² + 5² = 42, 4² + 2² = 20, 2² + 0² = 4, y 4 es un número de un solo digito que no es 1 ni 7.
 
-- 7 es el único número de un dígito (además de 1) que es pythonesco ya que 7² = 49, 4² + 9² = 97, 9² + 7² = 130, 1² + 3² + 0² = 10 y 1^2 + 0^2 = 1.
+- 7 es el único número de un dígito (además de 1) que es pythonesco ya que 7² = 49, 4² + 9² = 97, 9² + 7² = 130, 1² + 3² + 0² = 10 y 1² + 0² = 1.
 
 Pueden existir números *pythonescos* de cualquier número de dígitos. Por ejemplo, son números pythonescos los siguientes: 91, 230, 1587 (y muchos otros, por supuesto).
 
@@ -113,4 +113,5 @@ submit50 agucova/cs42/master/numeros-pythonescos
 {% next "Siguiente ejercicio" %}
 
 ### Siguiente ejercicio
-Bien! Ahora que has terminado este ejercicio, puedes seguir con el [siguiente ejercicio de la I1](https://lab.cs50.io/agucova/labs-cs42/master/numeros-pythonescos/), *Números Pythonescos*.
+
+Bien! Ahora que has terminado este ejercicio, puedes seguir con el [siguiente ejercicio de la I1](https://lab.cs50.io/agucova/labs-cs42/master/numeros-introescos/), *Números Introescos*. (Si, lo sé, la originalidad es notable acá).
